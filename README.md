@@ -14,14 +14,14 @@ To evaluate the classifiers, we used 10-fold cross validation on the given data.
 
 ## LIBRARIES
 
-- numpy: for numpy arrays
-- sklearn: for decision tree
-- sklearn.naive_bayes: for Naive Bayes
-- sklearn.svm: for SVM
-- sklearn.model_selection: for K-fold cross validation
-- sklearn.metrics: for classification accuracy
-- matplotlib.pyplot: for plotting accuracies for all tests
-- time: for computing running time
+- numpy: for numpy arrays.
+- sklearn: for decision trees.
+- sklearn.naive_bayes: for Naive Bayes.
+- sklearn.svm: for SVM.
+- sklearn.model_selection: for K-fold cross validation.
+- sklearn.metrics: for classification accuracy.
+- matplotlib.pyplot: for plotting accuracies for all tests.
+- time: for computing running time.
 
 ## ALGORITHM
 
