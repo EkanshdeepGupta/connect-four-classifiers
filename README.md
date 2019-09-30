@@ -1,7 +1,7 @@
 ## DMML ASSIGNMENT 2
 Submission: 6th October, 2019
 
-Ekanshdeep Gupta, BMC201710
+Ekanshdeep Gupta, BMC201710  
 Samarth Ramesh, BMC201722
 
 ## ABOUT THE PROGRAM
