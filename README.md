@@ -12,16 +12,6 @@ We read as input the set of all legal positions in the game of connect-4 in whic
 
 To evaluate the classifiers, we used 10-fold cross validation on the given data. We then compared the accuracies of the different classifiers for each of the 10 splits.
 
-## PARAMETERS
-
-For the different datasets, we used different frequencies:
-
-- For Kos, we used the frequencies 0.5, 0.4, 0.3, 0.25, 0.2, 0.15, 0.1
-- For Enron, we used the frequencies 0.5, 0.4, 0.3, 0.2, 0.15, 0.1, 0.05, 0.04, 0.03
-- For NIPS, we used the frequencies 0.95, 0.9, 0.85, 0.8, 0.75, 0.7, 0.65, 0.6, 0.55, 0.5, 0.45
-
-For each frequency, the number of frequent itemsets, running time and the itemsets are all stored in the corresponding output files.
-
 ## LIBRARIES
 
 - numpy: for numpy arrays
@@ -35,7 +25,7 @@ For each frequency, the number of frequent itemsets, running time and the itemse
 
 ## ALGORITHM
 
-The program accepts the connect-4 training data and parses it into numpy arrays. It then uses KFold function to make 10 training/test splits of the data. The three clasifiers are then built using the DecisionTreeClassifier, MultinomialNB and LinearSVC functions and are trained by the fit function on each split. We then use the predict function to compare the performance of the model on the test data. These acccuracies are then compared and graphed to get a comprehensive overview about the performance of the different models.
+The program accepts the connect-4 training data and parses it into numpy arrays. It then uses *KFold()* function to make 10 training/test splits of the data. The three clasifiers are then built using the *DecisionTreeClassifier()*, *MultinomialNB()* and *LinearSVC()* functions and are trained by the *fit()* function on each split. We then use the *predict()* function to compare the performance of the model on the test data. These acccuracies are then compared and graphed to get a comprehensive overview about the performance of the different models.
 
 ## ACCURACY AND RUNNING TIME
 
