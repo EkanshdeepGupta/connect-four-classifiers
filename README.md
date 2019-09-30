@@ -36,14 +36,11 @@ Following is the accuracy graph obtained by 10-fold cross validation of all the 
 </div>
 
 <table>
-  <thead>
     <tr>
       <td rowspan=2>Classifier</td>
       <td rowspan=2>Accuracy</td>
       <td colspan=2>Time reqired</td>
     </tr>
-  </thead>
-  <tbody>
     <tr>
       <td>Decision Tree</td>
       <td>0.6807</td>
@@ -59,5 +56,4 @@ Following is the accuracy graph obtained by 10-fold cross validation of all the 
       <td>0.6551</td>
       <td>331.37 sec</td>
     </tr>
-	</tbody>
 </table>
